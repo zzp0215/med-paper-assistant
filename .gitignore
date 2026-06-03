@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+.pnpm-store/
+
+# 数据和上传(不进入版本控制)
+data/
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+
+# 环境配置
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+logs/
+
+# 缓存
+.cache/
+__pycache__/
+.cache/
+
+# 模型权重
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# 测试
+coverage/
+.coverage
+htmlcov/
